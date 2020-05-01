@@ -38,7 +38,7 @@ main()
 	while (!((ans > 0) && (ans < 11))) {//If input is wrong, repeat the question.
 		printf("Your Input is Worng! Try Again\n");
 		printf("**********Input Your Desired Function**********\n");
-		printf("1)Cos(x)\n2)Sin(x)\n3)Tan(x)\&n4)Acos(x)\n5)Asin(x)\n6)Atan(x)\n7)x^y\n8)x^(1/y)\n9)e^x\n10)loge(x)\n");
+		printf("1)Cos(x)\n2)Sin(x)\n3)Tan(x)\n4)Acos(x)\n5)Asin(x)\n6)Atan(x)\n7)x^y\n8)x^(1/y)\n9)e^x\n10)loge(x)\n");
 		scanf("%d", &ans);
 		printf("------------------------------------------------\n");
 	}
